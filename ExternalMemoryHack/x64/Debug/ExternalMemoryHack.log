@@ -1,0 +1,16 @@
+﻿  Hack.cpp
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(23,39): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(23,39): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(44,32): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPVOID *' of greater size
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(48,36): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPVOID *' of greater size
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(41,60): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(56,20): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const char [16]' to 'LPCWSTR'
+  C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(56,36):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10076,1):
+  see declaration of 'FindWindowW'
+  C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(56,20):
+  while trying to match the argument list '(int, const char [16])'
+  
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(69,51): error C2065: 'Lgamemodule': undeclared identifier
+C:\Users\omen\source\repos\ExternalMemoryHack\ExternalMemoryHack\Hack.cpp(78,41): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
